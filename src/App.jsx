@@ -41,8 +41,8 @@ class App extends Component {
     Howler.volume(1.0)
     return<div className="text-5xl w-full h-screen  justify-center">
       {this.RenderButtonAndSound()}
-      <img src="http://newsimg.5054399.com/uploads/userup/1906/25162JL016.gif"/>
-      <img src="http://hbimg.huabanimg.com/31d4ecf35a14b1269b987e1326d1369534b6f6cc4f757-oAIvsv_fw658" className="mt-8"/>
+      <img src="http://newsimg.5054399.com/uploads/userup/1906/25162JL016.gif" className="mt-8"/>
+      
     </div>;
   }
 }
