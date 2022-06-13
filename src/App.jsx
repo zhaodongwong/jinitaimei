@@ -3,9 +3,9 @@ import ji from "./audioClips/ji.mp3";
 import ni from "./audioClips/ni.mp3";
 import tai from "./audioClips/tai.mp3";
 import mei from "./audioClips/mei.mp3";
-import niganma from "./audioClips/niganma.mp3";
-import haha from "./audioClips/haha.mp3";
-import yo from "./audioClips/yo.mp3";
+import niganma from "./audioClips/niganma1.mp3";
+import haha from "./audioClips/haha1.mp3";
+import yo from "./audioClips/yo1.mp3";
 import {Howl, Howler } from "howler"; 
 import { Icon } from '@iconify/react';
 
