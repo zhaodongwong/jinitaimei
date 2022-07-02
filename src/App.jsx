@@ -57,7 +57,7 @@ class App extends Component {
       <Icon icon="twemoji:chicken" width="26" height="26"/>
       <Icon icon="bi:arrow-down"  width="26" height="26"/>
       </div>
-      <h1 className="text-2xl">点击下面开始模拟</h1>
+      <h1 className="text-2xl">点击以下按键开始模拟</h1>
       <div className="mt-1 flex flex-row">
       <Icon icon="bi:arrow-down"  width="26" height="26"/>
       <Icon icon="emojione-v1:basketball" width="26" height="26"/>
