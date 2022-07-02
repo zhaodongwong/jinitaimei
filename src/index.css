@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,3 +8,33 @@
 * {
     font-family: "Ma Shan Zheng";
 }
+
+h1{
+    font-family:"Noto Sans SC"
+}
+
+div.line{
+    border-width:1px;
+  }
+
+
+button {
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #5C5858;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
+  }
+  
+  button:hover {background-color: #4C4646}
+  
+  button:active {
+ background-color: #4C4646;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  } 
