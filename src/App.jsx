@@ -12,6 +12,7 @@ import hechengqi from "./audioClips/hechengqi.mp3";
 import chanyin from "./audioClips/chanyin.mp3";
 import dianyin from "./audioClips/dianyin.mp3";
 import guaiwu from "./audioClips/guaiwu.mp3";
+import kunkun from "./audioClips/ezgif.com-gif-maker.gif"
 import {Howl, Howler } from "howler"; 
 import { Icon } from '@iconify/react';
 
@@ -52,7 +53,7 @@ class App extends Component {
   render() {
     Howler.volume(1.0)
     return<div className="text-5xl w-full h-screen  justify-center">
-      <img src="https://im4.ezgif.com/tmp/ezgif-4-3941f72017.gif" className="w-full h-screen blur-md absolute -z-50"/>
+      <img src={kunkun} className="w-full h-screen blur-md absolute -z-50"/>
       <div className="flex flex-row w-full justify-center bg-red-500 h-20 items-center select-none ">
         <h2 className="text-2xl lg:text-5xl">⚠️</h2>
       <h1 className="text-2xl lg:text-5xl select-none text-white">注意调低音量</h1>
