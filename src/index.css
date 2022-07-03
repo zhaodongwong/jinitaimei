@@ -14,14 +14,17 @@ h1{
 }
 
 div.line{
-    border-width:2px;
+    border-width:1px;
   }
 
-
+ 
+      
+    
+  
 
 
 button {
-    padding: 15px 25px;
+  padding:12px 20px;
     text-align: center;
     cursor: pointer;
     outline: none;

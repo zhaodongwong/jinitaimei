@@ -43,9 +43,11 @@ class App extends Component {
   RenderButtonAndSound = () => {
     return audioClips.map((soundObj,index) =>{
       return(
+        <div>
         <button key={index} onClick={() => this.SoundPlay(soundObj.sound)} >
           {soundObj.label}
         </button>
+        </div>
       )
     })
   }
@@ -53,15 +55,16 @@ class App extends Component {
   render() {
     Howler.volume(1.0)
     return<div className="text-5xl w-full h-screen  justify-center">
-      <img src={kunkun} className="w-full h-screen blur-md absolute -z-50"/>
+      <img src={kunkun} className="w-full h-screen blur-sm absolute -z-50"/>
       <div className="flex flex-row w-full justify-center bg-red-500 h-20 items-center select-none ">
         <h2 className="text-2xl lg:text-5xl">⚠️</h2>
       <h1 className="text-2xl lg:text-5xl select-none text-white">注意调低音量</h1>
       <h2 className="text-2xl lg:text-5xl">⚠️</h2>
       </div>
       <div className="line w-full border-black"></div>
-      <div className="mt-4 p-2 flex gap-3 flex-wrap select-none">
-      {this.RenderButtonAndSound()}
+      <div className="mt-4 p-2 flex gap-3 flex-wrap select-none text-5xl">
+        {this.RenderButtonAndSound()}
+      
       </div>
     </div>;
   }
