@@ -52,24 +52,16 @@ class App extends Component {
   render() {
     Howler.volume(1.0)
     return<div className="text-5xl w-full h-screen  justify-center">
-      <div className="flex flex-row">
-      <div className="mt-1 flex flex-row">
-      <Icon icon="twemoji:chicken" width="26" height="26"/>
-      <Icon icon="bi:arrow-down"  width="26" height="26"/>
+      <img src="https://im4.ezgif.com/tmp/ezgif-4-3941f72017.gif" className="w-full h-screen blur-md absolute -z-50"/>
+      <div className="flex flex-row w-full justify-center bg-red-500 h-20 items-center select-none ">
+        <h2 className="text-2xl lg:text-5xl">⚠️</h2>
+      <h1 className="text-2xl lg:text-5xl select-none text-white">注意调低音量</h1>
+      <h2 className="text-2xl lg:text-5xl">⚠️</h2>
       </div>
-      <h1 className="text-2xl">点击以下按键开始模拟</h1>
-      <div className="mt-1 flex flex-row">
-      <Icon icon="bi:arrow-down"  width="26" height="26"/>
-      <Icon icon="emojione-v1:basketball" width="26" height="26"/>
-      </div>
-      </div>
-      <div className='line mt-4 border-black'>
-      </div>
-      <div className="mt-4">
+      <div className="line w-full border-black"></div>
+      <div className="mt-4 p-2 flex gap-3 flex-wrap select-none">
       {this.RenderButtonAndSound()}
       </div>
-      <img src="http://newsimg.5054399.com/uploads/userup/1906/25162JL016.gif" className="mt-8 w-full lg:w-1/2"/>
-      
     </div>;
   }
 }

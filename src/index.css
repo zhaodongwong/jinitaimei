@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -14,8 +14,10 @@ h1{
 }
 
 div.line{
-    border-width:1px;
+    border-width:2px;
   }
+
+
 
 
 button {
@@ -38,3 +40,5 @@ button {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   } 
+
+ 
