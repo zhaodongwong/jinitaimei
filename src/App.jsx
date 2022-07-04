@@ -95,7 +95,7 @@ class Light extends Component {
   render() {
     Howler.volume(1.0)
     return<div className="w-full h-screen  justify-center">
-      <img src={kunkun} className="w-full h-screen blur-sm absolute -z-50"/>
+      <img src={kunkun} className="w-full h-screen blur-sm absolute -z-50 select-none"/>
       <div className="mt-4 p-2 flex gap-3 flex-wrap select-none text-3xl light lg:text-5xl">
         {this.RenderButtonAndSound()}
       
@@ -126,7 +126,7 @@ class Dark extends Component {
   render() {
     Howler.volume(1.0)
     return<div className="w-full h-screen justify-center">
-      <img src={kunkunkun} className="w-full h-screen blur-sm absolute -z-50"/>
+      <img src={kunkunkun} className="w-full h-screen blur-sm absolute -z-50 select-none"/>
       <div className="mt-4 p-2 dark flex gap-3 flex-wrap select-none text-3xl lg:text-5xl">
         {this.RenderButtonAndSound()}
       
