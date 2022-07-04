@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,6 +12,10 @@
 
 h1{
     font-family:"Noto Sans SC"
+} 
+
+li{
+  font-family:"Noto Sans SC"
 }
 
 div.line{
@@ -27,9 +32,9 @@ button {
   padding:12px 20px;
     text-align: center;
     cursor: pointer;
-    outline: none;
     color: #fff;
     background-color: #5C5858;
+    outline: none;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
@@ -44,4 +49,5 @@ button {
     transform: translateY(4px);
   } 
 
- 
+
+  
